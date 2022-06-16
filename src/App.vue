@@ -15,8 +15,7 @@ const show = ref(false)
   <HelloWorld v-show="show" @close="show = false"/>
 </template>
 
-<style lang="scss">
-@import 'normalize.css';
+<style lang="less">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
