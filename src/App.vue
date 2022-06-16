@@ -5,6 +5,7 @@ import { ref } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
 
 const show = ref(false)
+
 </script>
 
 <template>

@@ -20,15 +20,15 @@ export default defineConfig({
       "@": resolve(__dirname, "src"),
     },
   },
-  // css: {
-  //   preprocessorOptions: {
-  //     less: {
-  //       charset: false,
-  //       additionalData: `@import "${resolve(
-  //         __dirname,
-  //         "src/common/main.less"
-  //       )}";`,
-  //     },
-  //   },
-  // },
+  css: {
+    preprocessorOptions: {
+      less: {
+        charset: false,
+        additionalData: `@import "${resolve(
+          __dirname,
+          "main.less"
+        )}";`,
+      },
+    },
+  },
 })
