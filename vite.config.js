@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import { resolve } from "path"
 import vue from '@vitejs/plugin-vue'
-import config from "@/utils/config.js"
+import config from "./src/utils/config.js"
 
 // https://vitejs.dev/config/
 export default defineConfig({
