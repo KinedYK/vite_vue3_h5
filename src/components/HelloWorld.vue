@@ -37,7 +37,7 @@ const copy = async () => {
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .mask {
   position: fixed;
   top: 0;
