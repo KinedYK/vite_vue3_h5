@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "amfe-flexible": "^2.2.1",
+    "axios": "^0.27.2",
     "less": "^4.1.3",
     "normalize.css": "^8.0.1",
     "vue": "^3.2.25",
