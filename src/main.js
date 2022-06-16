@@ -3,7 +3,7 @@ import App from './App.vue'
 import VueClipboard from 'vue-clipboard2'
 
 /**
- * link(https://github.com/KinedYK/vite_vue3_h5/blob/master/src/components/HelloWorld.vue)
+ * link(https://github.com/duskload/mobile-device-detect/blob/master/README.md)
  * 设备信息
  */ 
 import { isMobile, getUA } from 'mobile-device-detect'
