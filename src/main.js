@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import router from '@/router/index'
 import VueClipboard from 'vue-clipboard2'
 
 /**
@@ -16,4 +17,5 @@ import 'normalize.css'
 
 const app = createApp(App)
 
-app.mount('#app')
+app.use(router)
+   .mount('#app')
