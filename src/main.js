@@ -1,21 +1,10 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from '@/router/index'
-import VueClipboard from 'vue-clipboard2'
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "@/router/index";
+import { store } from "@/store";
 
-/**
- * link(https://github.com/duskload/mobile-device-detect/blob/master/README.md)
- * 设备信息
- */ 
-import { isMobile, getUA } from 'mobile-device-detect'
-console.log(isMobile)
-console.log(getUA)
+import "@/utils/extends";
 
-import '@/utils/device.js'
+const app = createApp(App);
 
-import 'normalize.css'
-
-const app = createApp(App)
-
-app.use(router)
-   .mount('#app')
+app.use(store).use(router).mount("#app");

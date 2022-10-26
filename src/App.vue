@@ -1,5 +1,5 @@
 <template>
-  <router-view v-slot="{ Component, route }">
+  <!-- <router-view v-slot="{ Component, route }">
     <template v-if="Component">
       <transition :name="route.meta.transition || 'fade'" mode="out-in">
         <keep-alive>
@@ -17,7 +17,8 @@
         </keep-alive>
       </transition>
     </template>
-  </router-view>
+  </router-view> -->
+  <router-view></router-view>
 </template>
 
 <style lang="less">
