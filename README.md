@@ -14,3 +14,18 @@ npm install
 npm run dev
 
 ```
+
+# UI 库 Vant
+
+```
+https://vant-contrib.gitee.io/vant/#/zh-CN/quickstart
+
+引入组件
+
+import { createApp } from 'vue';
+import { Button } from 'vant';
+
+const app = createApp();
+app.use(Button);
+
+```
