@@ -8,3 +8,8 @@ body {
   font-family: system-ui, -apple-system, Segoe UI, Rototo, Emoji, Helvetica, Arial, sans-serif;
 }
 
+each(range(10, 40), {
+  .font-@{value} {
+    font-size: (@value * 1px);
+  }
+});
